@@ -2,7 +2,8 @@
 
 # OctoPi
 
-Unsere Offizielle Webseite findet Ihr auf:
+Unsere Offizielle Webseite:
 
-### [Webseite](https://octopi-team.github.io/OctoPi-Website/)
+## [GitHub Pages](https://octopi-team.github.io/OctoPi-Website/)
 
+Dort findet Ihr Informationen für Status-Dokumente, Teamname und Gruppenfoto.
