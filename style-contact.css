@@ -1,0 +1,71 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content-left {
+    font-size: 70px;
+}
+
+.content-left h3 {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.content-contact {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-left h4 {
+    font-size: 50px;
+}
+
+.email {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+
+.content-right {
+    display: flex;
+}
+
+.text::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+}
+
+input {
+    padding-left: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 15px;
+    width: 510px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+}
+
+button {
+    background: #4C98E8;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
