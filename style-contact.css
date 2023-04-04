@@ -83,4 +83,22 @@
     .content-right {
         margin-top: 50px;
     }
+
+    h4 {
+        text-align: center;
+    }
+
+    .email {
+        width: 200px;
+    }
+
+    .formular {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        width: 300px;
+        height: 200px;
+    }
 }
