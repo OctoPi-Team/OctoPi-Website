@@ -12,3 +12,8 @@ dark_mode_button.addEventListener("click", () => {
 if (localStorage.getItem("mode") === "dark") {
     document.body.classList.add("dark_mode");
 }
+
+const alert = document.getElementById("button-file");
+alert.addEventListener("click", () => {
+    window.alert("Not yet implemented");
+})
