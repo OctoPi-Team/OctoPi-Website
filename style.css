@@ -167,12 +167,24 @@ span {
 	}
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     .menu {
         display: block;
     }
     .navbar-menu {
         display: none;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content-name-list {
+        border-left: none;
+    }
+
+    h1 {
+        text-align: center;
     }
 }
 
