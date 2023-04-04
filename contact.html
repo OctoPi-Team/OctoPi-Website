@@ -62,9 +62,11 @@
       <div class="content-right">
         <div class="formular">
           <form action="https://formsubmit.co/9d0b18d4c7b8c7bd2068a4c47811a13a" method="POST">
-            <input class="email" type="email" name="email" placeholder="Ihre E-Mail Adresse" required>
+            <input type="hidden" name="_subject" value="Neue Email!">
+            <input type="hidden" name="_template" value="box">
+            <input class="email" type="email" name="E-Mail" placeholder="Ihre E-Mail Adresse" required>
             <button class="send" type="submit">Send</button><br><br>
-            <textarea class="text" type="text" name="name" placeholder="Schreiben Sie Uns" cols=70 required></textarea>
+            <textarea class="text" type="text" name="Nachricht" placeholder="Schreiben Sie Uns" cols=70 required></textarea>
           </form>
         </div>
       </div>
