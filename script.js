@@ -1,4 +1,4 @@
-let string = "Hi, wir sind Octo";
+let string = "Hi, wir sind Team Octo";
 let str = string.split("");
 let el = document.getElementById('header-animation');
 (function animate() {
