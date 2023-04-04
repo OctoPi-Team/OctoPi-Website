@@ -1,4 +1,4 @@
-![Logo](png)
+![Logo](/img/Logo_White.png)
 
 # OctoPi
 
@@ -24,7 +24,6 @@ Dort findet Ihr Informationen für Status-Dokumente, Teamname, Gruppenfoto und w
 5. Thomas
 6. Timo
 
-
 ## Kontakt
 
-E-Mail: ```octopi-sep@proton.me```
+E-Mail: `octopi-sep@proton.me`
