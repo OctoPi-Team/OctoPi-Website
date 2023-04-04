@@ -152,7 +152,9 @@ span {
 
 .content-header {
     font-size: 30px;
-    margin-top: 85px;;
+    margin-top: 85px;
+    text-decoration: underline 1px;
+    text-underline-offset: 15px;
 }
 
 .content {
