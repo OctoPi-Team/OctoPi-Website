@@ -1,0 +1,161 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content-contact img {
+    filter: contrast(1);
+}
+
+.content-left {
+    font-size: 70px;
+}
+
+.content-left h3 {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.content-contact {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content-left h4 {
+    font-size: 50px;
+}
+
+.formular {
+    width: 600px;
+    height: 500px;
+}
+
+.email {
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.send {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2b6db3;
+    border-radius: 20px;
+}
+
+.email::placeholder {
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+.text {
+    width: 490px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.text::placeholder {
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+.adress{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .content-right {
+        margin-top: 50px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .email {
+        width: 400px;
+    }
+
+    .formular {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        width: 500px;
+        height: 200px;
+    }
+
+    .adress {
+        text-align: center;
+    }
+
+    .content-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-left {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .content-right {
+        margin-top: 50px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .email {
+        width: 200px;
+    }
+
+    .formular {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        width: 300px;
+        height: 200px;
+    }
+
+    .adress {
+        text-align: center;
+    }
+
+    .content-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-left {
+        text-align: center;
+    }
+}
