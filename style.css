@@ -223,6 +223,50 @@ span {
 	animation-duration: 0.5s;
 }
 
+.content-members-solo {
+    text-align: center;
+}
+
+.julia img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.steven img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.timo img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.philip img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.jasmin img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.julian img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.thomas img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.johanna img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
@@ -245,7 +289,7 @@ span {
     }
 
     .content-name-list {
-        border-left: none;
+        display: none;
     }
 
     .content-header {
@@ -258,8 +302,18 @@ span {
         justify-content: center;
     }
 
+    .content-members-solo {
+        display: block;
+    }
+
     #header-animation {
         text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content-members-solo {
+        display: none;
     }
 }
 
@@ -278,3 +332,4 @@ span {
         font-size: 10px;
     }
 }
+
