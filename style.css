@@ -138,7 +138,7 @@ span {
 }
 
 .content-name-list {
-    padding-left: 30%;
+    padding-left: 10%;
     border-left: var(--primary-color) 1px solid;
     color: var(--primary-color);
     list-style-type: none;

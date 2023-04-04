@@ -5,6 +5,10 @@
     margin-top: 50px;
 }
 
+.content-contact img {
+    filter: contrast(1);
+}
+
 .content-left {
     font-size: 70px;
 }
