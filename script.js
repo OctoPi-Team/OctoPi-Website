@@ -1,7 +1,4 @@
-const dots = window.setInterval(() => {
-    const wait = document.getElementById("wait");
-    if (wait.innerHTML.length > 2) 
-        wait.innerHTML = "";
-    else 
-        wait.innerHTML += ".";
-}, 500);
+const dark_mode_button = document.getElementById("dark_mode_button");
+dark_mode_button.addEventListener("click", () => {
+    document.body.classList.toggle("dark_mode");
+})
