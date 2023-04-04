@@ -25,38 +25,58 @@
     font-size: 50px;
 }
 
-.email {
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
-    border-style: none;
-    font-size: 20px;
+.formular {
+    width: 600px;
+    height: 500px;
 }
 
-.content-right {
-    display: flex;
+.email {
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.send {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2b6db3;
+    border-radius: 20px;
+}
+
+.email::placeholder {
+    font-size: 15px;
+    color: var(--secondary-color);
+}
+
+.text {
+    width: 490px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .text::placeholder {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
+    font-size: 15px;
+    color: var(--secondary-color);
 }
 
-input {
-    padding-left: 10px;
-    width: 500px;
-    height: 500px;
-}
+@media only screen and (max-width: 1600px) {
+    .main {
+        flex-direction: column;
+    }
 
-textarea {
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-top: 15px;
-    width: 510px;
-    height: 500px;
-    border-radius: 10px;
-    border-style: none;
-    font-size: 20px;
+    .content-right {
+        margin-top: 50px;
+    }
 }
