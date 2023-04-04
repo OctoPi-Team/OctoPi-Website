@@ -2,7 +2,7 @@
     system: fixed;
     symbols: Mo Di Mi Do Fr We;
     suffix: " ";
-  }
+}
 .main{
     position: relative;
     height: 90%;
@@ -28,7 +28,7 @@
     width: 100%;  
 }
 .meeting-times{
-    
+    padding-bottom: 20%;
 }
   
 h1{
