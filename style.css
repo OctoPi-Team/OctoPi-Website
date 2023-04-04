@@ -57,6 +57,14 @@ body {
     height: 100vh
 }
 
+#header-animation {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+ }
+
 a {
     text-decoration: none;
     color: var(--primary-color)
@@ -144,10 +152,7 @@ span {
 
 .content-header {
     font-size: 30px;
-    margin-top: 85px;;
-}
-
-.content-header h1 {
+    margin-top: 85px;
     text-decoration: underline 1px;
     text-underline-offset: 15px;
 }
@@ -219,7 +224,17 @@ span {
         border-left: none;
     }
 
-    h1 {
+    .content-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #str {
+        display: flex;
+        justify-content: center;
+    }
+
+    #header-animation {
         text-align: center;
     }
 }
