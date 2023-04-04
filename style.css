@@ -62,8 +62,32 @@ body {
     font-family: sans-serif;
     font-size: 60px;
     color: #fff;
-    font-weight: bold;
- }
+}
+
+#header-animation::after {
+    color: #4C98E8;
+    content: 'Pi';
+}
+
+#header-animation::after {
+	opacity: 1;
+	animation-name: fadeInOpacity1;
+	animation-timing-function: ease;
+	animation-duration: 5s;
+}
+
+@keyframes fadeInOpacity1 {
+	0% {
+		opacity: 0;
+	}
+    50% {
+        opacity: 0;
+    }
+	100% {
+		opacity: 1;
+	}
+}
+
 
 a {
     text-decoration: none;

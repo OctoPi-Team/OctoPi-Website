@@ -1,4 +1,4 @@
-let string = "Hi, wir sind OctoPi";
+let string = "Hi, wir sind Octo";
 let str = string.split("");
 let el = document.getElementById('header-animation');
 (function animate() {
