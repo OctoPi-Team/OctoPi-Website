@@ -36,7 +36,8 @@
 }
 
 .email {
-    width: 400px;
+    margin-top: 10px;
+    width: 345px;
     height: 40px;
     border-style: none;
     border-radius: 10px;
@@ -59,11 +60,28 @@
 .email::placeholder {
     font-size: 15px;
     color: var(--secondary-color);
+    text-align: center;
+}
+
+.name {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+    border-style: none;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.name::placeholder {
+    font-size: 15px;
+    color: var(--secondary-color);
+    text-align: center;
 }
 
 .text {
     width: 490px;
-    height: 500px;
+    height: 400px;
     padding: 10px;
     border-radius: 10px;
     border-style: none;
@@ -74,6 +92,7 @@
 .text::placeholder {
     font-size: 15px;
     color: var(--secondary-color);
+    text-align: center;
 }
 .adress{
     font-size: 20px;
@@ -92,7 +111,7 @@
     }
 
     .email {
-        width: 400px;
+        width: 345px;
     }
 
     .formular {
@@ -135,7 +154,7 @@
     }
 
     .email {
-        width: 195px;
+        width: 165px;
     }
 
     .formular {
