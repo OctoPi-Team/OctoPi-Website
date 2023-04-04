@@ -89,6 +89,34 @@
     }
 
     .email {
+        width: 400px;
+    }
+
+    .formular {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        width: 500px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .content-right {
+        margin-top: 50px;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .email {
         width: 200px;
     }
 
