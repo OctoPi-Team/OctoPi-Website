@@ -1,0 +1,371 @@
+:root {
+    --primary-color: white;
+    --secondary-color: #1F1F1F;
+    --picture-color: contrast(1);
+}
+
+.dark_mode {
+    --primary-color: #1F1F1F;
+    --secondary-color: white;
+    --picture-color: contrast(0);
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: var(--secondary-color);
+    height: 100vh
+}
+
+#header-animation {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+#header-animation::after {
+    color: #4C98E8;
+    content: 'Pi';
+}
+
+#header-animation::after {
+	opacity: 1;
+	animation-name: fadeInOpacity1;
+	animation-timing-function: ease;
+	animation-duration: 5s;
+}
+
+@keyframes fadeInOpacity1 {
+	0% {
+		opacity: 0;
+	}
+    50% {
+        opacity: 0;
+    }
+	100% {
+		opacity: 1;
+	}
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--primary-color)
+}
+
+button {
+    color: var(--primary-color);
+    background: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4C98E8;
+    border-radius: 20px;
+    color: white;
+}
+
+img {
+    filter: var(--picture-color);
+}
+
+span {
+    color: #4C98E8;
+}
+
+.navbar {
+    max-width: 100%;
+    height: 80px;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-logo img {
+    filter: var(--picture-color);
+    width: 60px;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-links button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-links img {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: none;
+}
+
+.navbar-hr {
+    width: 80%;
+    margin: auto;
+}
+
+.main {
+    color: var(--primary-color);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-header {
+    font-size: 30px;
+    margin-top: 85px;
+    text-decoration: underline 1px;
+    text-underline-offset: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    gap: 50px;
+}
+
+.content-picture img {
+    max-width: 100%;
+    height: auto;
+    filter: contrast(1);
+}
+
+.content-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    width: 20%;
+}
+
+.content-name-list {
+    padding-left: 10%;
+    border-left: var(--primary-color) 1px solid;
+    color: var(--primary-color);
+    list-style-type: none;
+}
+
+.content-members li {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.main {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.5s;
+}
+
+.content-members-solo {
+    text-align: center;
+}
+
+.julia img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.steven img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.timo img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.philip img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.jasmin img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.julian img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.thomas img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+.johanna img {
+    border-radius: 100px;
+    filter: contrast(1);
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+    .menu {
+        display: block;
+    }
+    .navbar-menu {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content-name-list {
+        display: none;
+    }
+
+    .content-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    #str {
+        display: flex;
+        justify-content: center;
+    }
+
+    .content-members-solo {
+        display: block;
+    }
+
+    #header-animation {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .content-members-solo {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .content-members li {
+        font-size: 15px;
+    }
+
+    .content {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .content-header {
+        font-size: 10px;
+    }
+}
+
+
+.dropdown-content {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: var(--primary-color); 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+
+  .dropdown-content a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--secondary-color);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    /*color: var(--primary-color);*/
+  }
+  
+  .sidenav .dropbtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
