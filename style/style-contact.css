@@ -168,12 +168,12 @@
     }
 
     .email {
-        width: 175px;
+        width: 250px;
         margin: 0;
     }
 
     .name {
-        width: 165px;
+        width: 240px;
     }
 
     .formular {
@@ -183,7 +183,7 @@
     }
 
     .text {
-        width: 165px;
+        width: 250px;
         height: 200px;
     }
 
@@ -201,7 +201,7 @@
     }
 
     .send {
-        width: 185px;
+        width: 270px;
     }
 
     .content-left {
