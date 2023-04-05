@@ -333,3 +333,39 @@ span {
     }
 }
 
+
+.dropdown-content {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: var(--primary-color); 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+
+  .dropdown-content a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--secondary-color);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .dropdown-content a:hover {
+    /*color: var(--primary-color);*/
+  }
+  
+  .sidenav .dropbtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
