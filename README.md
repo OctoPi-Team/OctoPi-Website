@@ -1,4 +1,4 @@
-<img src="/img/Logo_Full_Black.png" height="200em">
+<img src="/img/Logo_White.png" height="200em">
 
 # OctoPi
 
