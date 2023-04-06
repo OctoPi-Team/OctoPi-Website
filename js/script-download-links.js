@@ -18,6 +18,7 @@ function getFile(fileObject){
 
     button.appendChild(btn_div);
     downloadLink.appendChild(button);
+    downloadLink.appendChild(document.createElement("br"));
     return downloadLink;
 }
 
