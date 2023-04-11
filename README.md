@@ -1,4 +1,4 @@
-<img src="/img/Logo_White.png" height="200em">
+![Logo](/img/Logo.png)
 
 # OctoPi
 
