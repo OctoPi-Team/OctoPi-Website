@@ -134,7 +134,7 @@ span {
 }
 
 .navbar-logo img {
-    filter: var(--picture-color);
+    filter: contrast(1);
     width: 60px;
 }
 
