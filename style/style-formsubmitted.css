@@ -1,0 +1,11 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
